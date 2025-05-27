@@ -174,8 +174,8 @@ public:
     void invertDisplay(bool) override;
     void displayOn() override;
     void displayOff() override;
-    void Display_Brightness(uint8_t brightness) override;
-    void SetContrast(uint8_t Contrast) override;
+    void Display_Brightness(uint8_t brightness);
+    void SetContrast(uint8_t Contrast);
 
 protected:
     void tftInit() override;
